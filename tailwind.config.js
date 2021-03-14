@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: (theme) => ({
-        circles: "url('/rshacks/public/Title Text.svg')",
+        circles: "url('/circles.svg')",
       }),
     },
   },

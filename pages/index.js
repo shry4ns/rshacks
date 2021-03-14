@@ -11,7 +11,7 @@ export default function Home() {
           Get Started
         </button>
       </div>
-      <div class="mt-8">
+      <div class="mt-8 ml-16">
         <img src={"/set.svg"} />
       </div>
     </div>

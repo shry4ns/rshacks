@@ -1,7 +1,7 @@
 const Header = () => {
   return (
-    <div className="flex flex-wrap py-2">
-      <div className="shadow-md w-full px-4">
+    <div className="flex flex-wrap pb-2">
+      <div className="shadow-md w-full px-4 bg-white">
         <nav className="relative flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg rounded">
           <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
             <div className="w-full relative flex justify-between lg:w-auto px-4 lg:static lg:block lg:justify-start">
