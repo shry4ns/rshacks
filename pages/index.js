@@ -11,8 +11,9 @@ export default function Home() {
           Get Started
         </button>
       </div>
-      <div class="mt-8 ml-16">
-        <img src={"/set.svg"} />
+      <div class="max-w-screen-lg mx-auto pb-10">
+        <img class="mx-auto mt-16" src={"/set.svg"} />
+        <img src={"/investment.svg"} />
       </div>
     </div>
     //   <Head>
