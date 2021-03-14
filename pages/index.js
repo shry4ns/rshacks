@@ -1,12 +1,18 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
-import Navbar from '../components/Header.js'
-
+import Head from "next/head";
+import styles from "../styles/Home.module.css";
+import Navbar from "../components/Header.js";
+import TitleText from "../components/TitleText";
 export default function Home() {
   return (
-
-    // <div className={styles.container}>
-<Navbar/>
+    <div>
+      <Navbar />
+      <div class="ml-16 mt-16">
+        <TitleText />
+        <button class=" mt-8 ml-28 bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-2 px-4 rounded-full">
+          Get Started
+        </button>
+      </div>
+    </div>
     //   <Head>
     //     <title>Create Next App</title>
     //     <link rel="icon" href="/favicon.ico" />
@@ -64,6 +70,5 @@ export default function Home() {
     //     </a>
     //   </footer>
     // </div>
-
-  )
+  );
 }
