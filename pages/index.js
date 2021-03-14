@@ -1,16 +1,18 @@
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
 import Navbar from "../components/Header.js";
 import TitleText from "../components/TitleText";
 export default function Home() {
   return (
-    <div>
+    <div class="bg-circles">
       <Navbar />
       <div class="ml-16 mt-16">
         <TitleText />
         <button class=" mt-8 ml-28 bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-2 px-4 rounded-full">
           Get Started
         </button>
+      </div>
+      <div class="mt-8">
+        <img src={"/set.svg"} />
       </div>
     </div>
     //   <Head>
