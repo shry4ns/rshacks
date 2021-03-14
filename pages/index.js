@@ -13,8 +13,12 @@ export default function Home() {
       </div>
       <div class="max-w-screen-lg mx-auto pb-10">
         <img class="mx-auto mt-16" src={"/set.svg"} />
+      </div>
+      <div class="flex justify-evenly">
+        <img src={"/invest_txt.svg"} />
         <img src={"/investment.svg"} />
       </div>
+      <img src={"footer.svg"} />
     </div>
     //   <Head>
     //     <title>Create Next App</title>

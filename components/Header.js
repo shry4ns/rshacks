@@ -30,7 +30,7 @@ const Header = () => {
                     className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:opacity-75"
                     href="#pablo"
                   >
-                    Discover
+                    For Businesses
                   </a>
                 </li>
                 <li className="nav-item">
@@ -38,15 +38,23 @@ const Header = () => {
                     className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:opacity-75"
                     href="#pablo"
                   >
-                    Profile
+                    For Investors
                   </a>
                 </li>
                 <li className="nav-item">
                   <a
                     className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:opacity-75"
-                    href="#pablo"
+                    href="#resources"
                   >
-                    Settings
+                    Resources
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a
+                    className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:opacity-75"
+                    href="#resources"
+                  >
+                    About Us
                   </a>
                 </li>
               </ul>
